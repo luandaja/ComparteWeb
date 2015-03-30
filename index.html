@@ -1,28 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Parallax Template - Materialize</title>
-
-  <!-- CSS  -->
+  <title>CompArte</title>
+  <meta name="description" content="CompArte, educando a travez del Arte. Somos voluntariado que busca apoyar en la formación de los niños de nuestro país. CompArte es un proyecto de Acción Universitaria"> <!--MEJORAR-->
+  <meta name="author" content="Luis del Aguila & Felipe Acosta">
+  <!-- CSS  --> 
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-<body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
-      <ul class="right">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+<body>
+    <ul id="obras" class="dropdown-content">
+    <li><a href="#!">UPC</a></li>
+    <li><a href="#!">ULima</a></li>
+    <li><a href="#!">UP</a></li>
+    </ul>
+    
+    <div class="navbar-fixed ">
+      <nav class="light-blue darken-1 ">
+        <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+        <a href="#!" class="brand-logo white-text ">Logo</a>
+    
+        <ul class="right hide-on-med-and-down">
+        <li><a class="white-text" href="#">Conocenos</a></li>
+        <li><a class="white-text" href="#">Obras</a></li>
+        <li><a class="white-text" href="#">Contactanos</a></li>
+        </ul>
+
+       
+      </nav>
     </div>
-  </nav>
+<nav class="transparente">
+  <ul class="side-nav" id="mobile-menu">
+        <li><a href="#">Conocenos</a></li>
+        <li><a href="#">Obras</a></li>
+        <li><a href="#">Contactanos</a></li>
+        </ul>
+</nav>
+
 
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">

@@ -53,3 +53,16 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+.transparente{
+  height: 0px;
+}
+
+.brand-logo
+{
+  margin: 0em 0.5em 0em 0.5em;
+}
+
+.parallax-container {
+      height: 350px;
+    }

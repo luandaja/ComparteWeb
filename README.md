@@ -1,3 +1,2 @@
 # ComparteWeb
-Demo de Web Site de CompArte
-asjdsad
+Comaparte WEB es la iniciativa para darle un sitio web al volutariado de acción universitaria comparte
